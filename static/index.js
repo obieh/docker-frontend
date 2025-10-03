@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    </head>
-<body>
-    <script>
-        // JavaScript code to handle adding and deleting items
-        function addItem() {
+
+
+function addItem() {
             const input = document.getElementById('newItem');
             const list = document.getElementById('todoList');
             const li = document.createElement('li');
@@ -23,5 +15,6 @@
             input.value = '';       
         }
     </script>
-</body>
-</html>
+
+
+    
